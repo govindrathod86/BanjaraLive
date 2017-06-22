@@ -15,11 +15,11 @@ angular.module('WordApp', ['ionic', 'WordApp.controllers', 'WordApp.services', '
             };
         } else if (/(ipod|iphone|ipad)/i.test(navigator.userAgent)) {
             admobid = { // for iOS
-                banner: 'ca-app-pub-7606760144414883/9902261055'
+                banner: ''
             };
         } else {
             admobid = { // for Windows Phone
-                banner: 'ca-app-pub-7606760144414883/9902261055'
+                banner: ''
             };
         }
 
