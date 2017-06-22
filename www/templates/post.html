@@ -24,7 +24,7 @@
 	  </div>
 	  
 	  <div class="item item-image">
-        <img ng-src="{{post.better_featured_image.media_details.sizes.medium.source_url}}" class="full-image" ng-click="showImage(post.better_featured_image.source_url)"/>
+        <img ng-src="{{post.better_featured_image.media_details.sizes.medium.source_url}}" ng-click="showImage(post.better_featured_image.source_url)"/>
       </div>
 	  
 	  <div class="item-body" ng-if="content"  ng-style="{'fontSize': vm.fontSize + 'px'}" ng-bind-html="content | html_filters"></div>
