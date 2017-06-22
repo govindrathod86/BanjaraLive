@@ -23,7 +23,7 @@
 		<h6>{{lng_posted}} <span am-time-ago="post.date"></span> {{lng_in}} {{post.pure_taxonomies.categories[0].name}} {{comments.length}} {{lng_comments_count}}</h6>
 	  </div>
 	  
-	  <div class="item item-image">
+	  <div class="item">
         <img ng-src="{{post.better_featured_image.media_details.sizes.medium.source_url}}" class="full-image" ng-click="showImage(post.better_featured_image.source_url)"/>
       </div>
 	  
