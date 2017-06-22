@@ -15,11 +15,11 @@ angular.module('WordApp', ['ionic', 'WordApp.controllers', 'WordApp.services', '
             };
         } else if (/(ipod|iphone|ipad)/i.test(navigator.userAgent)) {
             admobid = { // for iOS
-                banner: ''
+                banner: 'ca-app-pub-7606760144414883/9902261055'
             };
         } else {
             admobid = { // for Windows Phone
-                banner: ''
+                banner: 'ca-app-pub-7606760144414883/9902261055'
             };
         }
 
@@ -40,7 +40,7 @@ angular.module('WordApp', ['ionic', 'WordApp.controllers', 'WordApp.services', '
         var notificationOpenedCallback = function(jsonData) {
             if (jsonData.additionalData) {
                 if (jsonData.additionalData.postid)
-                // alert("Notification received:\n" + jsonData.additionalData.postid);
+                alert("Notification received:\n" + jsonData.additionalData.postid);
                     $state.go('app.post', {
                     'postId': +jsonData.additionalData.postid
                 });
