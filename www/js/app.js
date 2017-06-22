@@ -55,11 +55,12 @@ angular.module('WordApp', ['ionic', 'WordApp.controllers', 'WordApp.services', '
             }
         }
 
-        // Update with your OneSignal AppId and googleProjectNumber before running.
+        // Update with your OneSignal AppId and googleProjectNumber before running.		
         window.plugins.OneSignal.init(ONESIGNAL_APP_ID, {
                 googleProjectNumber: GOOGLE_PROJECT_NUMBER
             },
             notificationOpenedCallback);
+		window.plugins.OneSignal.enableNotificationsWhenActive(true);
         // Back button function
         $ionicPlatform.registerBackButtonAction(function(e) {
             if ($rootScope.backButtonPressedOnceToExit) {
