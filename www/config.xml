@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="me.classinfo.collegelive" version="1.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>College Live</name>
+<widget id="com.goarbanjara.banjara" version="1.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>Banjara Live</name>
   <description>
-        College Live mobile apps
+        Banjara's  mobile news app.
     </description>
-  <author email="govindrathod86@gmail.com" href="http://collegelive.in/">
-      Govind Rathod
+  <author email="infobanjara@gmail.com" href="http://goarbanjara.com">
+        GoarBanjara Team
     </author>
   <content src="index.html"/>
   <access origin="*"/>
