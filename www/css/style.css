@@ -1,5 +1,10 @@
 /* Empty. Add your own CSS if you like */
 
+h2 {
+
+    font-size: 24px;
+}
+
 .item  h2 {
 
     font-size: 20px;
